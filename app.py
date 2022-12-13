@@ -11,4 +11,23 @@ num = 10
 
 bool = True
 
-print(bool)
+# Arithmetic Operations
+
+num += 2;
+num *= 2;
+num /= 3;
+num -= 4;
+
+# Comparison Operations 
+
+# print(1 <= 2)
+
+# Logical Operators
+
+# print(True and False);
+# print(True or False);
+# print(True and True);
+
+# Type of
+
+print(type(1));
