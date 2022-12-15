@@ -43,4 +43,14 @@ let condition = false;
 
 let x = condition ? "True" : "False";
 
-console.log(x);
+// Else If
+
+let y = true;
+
+if (y && false) {
+  console.log("If statement");
+} else if (y) {
+  console.log("Else If statement");
+} else {
+  console.log("Else Statement");
+}

@@ -43,3 +43,14 @@ condition = False
 x = "Condition Is True" if condition else "Condition is False"
 
 print(x)
+
+# Else If
+
+y = True
+
+if(y and False): 
+    print("If statement")
+elif y: 
+    print("Else If statement")
+else: 
+    print("Else statement")
