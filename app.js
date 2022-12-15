@@ -27,4 +27,12 @@ num -= 4;
 // console.log(true && false);
 // console.log(true && true);
 
-console.log(typeof 1);
+// console.log(typeof 1);
+
+// Conditional Logic
+
+if (false) {
+  console.log("Statement is true!");
+} else {
+  console.log("Statement is false");
+}

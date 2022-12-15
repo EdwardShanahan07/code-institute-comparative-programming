@@ -30,4 +30,10 @@ num -= 4;
 
 # Type of
 
-print(type(1));
+# print(type(1));
+
+# Conditional Logic
+
+if False:
+    print("Statement is true")
+else: print("Statement is false")
