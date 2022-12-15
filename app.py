@@ -37,3 +37,9 @@ num -= 4;
 if False:
     print("Statement is true")
 else: print("Statement is false")
+
+# Ternary Conditional
+condition = False
+x = "Condition Is True" if condition else "Condition is False"
+
+print(x)

@@ -36,3 +36,11 @@ if (false) {
 } else {
   console.log("Statement is false");
 }
+
+// Ternary Conditional
+
+let condition = false;
+
+let x = condition ? "True" : "False";
+
+console.log(x);
