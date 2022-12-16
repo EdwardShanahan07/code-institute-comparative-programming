@@ -63,3 +63,13 @@ for fruit in fruits:
     print(fruit)
 
 print(fruits[1])
+
+# Objects 
+
+person = {
+    "name": "John",
+    "last_name": "Doe",
+    "age": 32
+}
+
+print(person["age"])

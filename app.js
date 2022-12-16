@@ -64,3 +64,13 @@ for (let i = 0; i < fruits.length; i++) {
 }
 
 console.log(fruits[1]);
+
+// Objects
+
+let person = {
+  name: "John",
+  lastName: "Doe",
+  age: 32,
+};
+
+console.log(person.lastName);
