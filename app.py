@@ -54,3 +54,12 @@ elif y:
     print("Else If statement")
 else: 
     print("Else statement")
+
+# Lists
+
+fruits = ["Oranges", "Bananas", "Apple"]
+
+for fruit in fruits: 
+    print(fruit)
+
+print(fruits[1])

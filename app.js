@@ -54,3 +54,13 @@ if (y && false) {
 } else {
   console.log("Else Statement");
 }
+
+// Arrays
+
+let fruits = ["Oranges", "Bananas", "Apple"];
+
+for (let i = 0; i < fruits.length; i++) {
+  console.log(fruits[i]);
+}
+
+console.log(fruits[1]);
