@@ -88,3 +88,21 @@ function add(num1, num2) {
 }
 
 add(1, 2);
+
+// Classes
+
+class Person {
+  constructor(name, lastName, age) {
+    this.name = name;
+    this.lastName = lastName;
+    this.age = age;
+  }
+
+  bio() {
+    console.log(this.name, this.lastName, this.age);
+  }
+}
+
+let person1 = new Person("John", "Doe", 32);
+
+person1.bio();
