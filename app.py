@@ -13,10 +13,10 @@ bool = True
 
 # Arithmetic Operations
 
-num += 2;
-num *= 2;
-num /= 3;
-num -= 4;
+num += 2
+num *= 2
+num /= 3
+num -= 4
 
 # Comparison Operations 
 
@@ -73,3 +73,17 @@ person = {
 }
 
 print(person["age"])
+
+# Functions 
+
+def sayHello():
+  print("Hello!")
+
+
+sayHello()
+
+def add(num1, num2) :
+  print(num1 + num2)
+
+
+add(1, 2)
